@@ -1,0 +1,82 @@
+/* Write your CSS here */
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+.events-container {
+  max-width: 50vw;
+  background-color: #64748b;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.events-heading {
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.events-list-contaziner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style-type: none;
+  margin-left: 0px;
+}
+.noActiveEventView {
+  color: #64748b;
+  text-align: center;
+  margin: 20px;
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.yetToBeRegisteredView-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.image-yet-to-register {
+  max-height: 50vh;
+  max-width: 40vw;
+}
+.yet-to-registered-para {
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #64748b;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.registered-button {
+  background-color: #0967d2;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: none;
+}
+.registered-view-image {
+  max-height: 100px;
+  max-width: 100px;
+}
+.registrations-closed-image {
+  max-height: 50vh;
+  max-width: 40vw;
+}
+.registrations-closed-hading {
+  color: #323f4b;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Roboto';
+}
+.registrations-closed-para {
+  color: #475569;
+  font-weight: Bold;
+  font-family: 'Roboto';
+  text-align: center;
+}
